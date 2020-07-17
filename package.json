@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "gitbook-plugin-toggle-chapters": "^0.0.3"
+  }
+}

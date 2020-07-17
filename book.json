@@ -1,0 +1,58 @@
+{
+  "plugins": [
+    "back-to-top-button",
+    "chapter-fold",
+    "code",
+    "splitter",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "insert-logo",
+    "custom-favicon",
+    "pageview-count",
+    "tbfed-pagefooter",
+    "popup",
+    "-sharing",
+    "sharing-plus",
+    "hide-element"
+  ],
+  "pluginsConfig": {
+    "hide-element": {
+      "elements": [".gitbook-link"]
+    },
+    "insert-logo": {
+      "url": "https://ftp.bmp.ovh/imgs/2019/11/8dea885bcee7fb02.png",
+      "style": "background: none; max-height: 150px; min-height: 150px"
+    },
+    "favicon": "./icon/favicon.ico",
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy web-yyb.top 2019",
+      "modify_label": "该文章修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "sharing": {
+      "douban": true,
+      "facebook": true,
+      "google": true,
+      "pocket": true,
+      "qq": true,
+      "qzone": true,
+      "twitter": true,
+      "weibo": true,
+      "all": [
+        "douban",
+        "facebook",
+        "google",
+        "instapaper",
+        "linkedin",
+        "twitter",
+        "weibo",
+        "messenger",
+        "qq",
+        "qzone",
+        "viber",
+        "whatsapp"
+      ]
+    }
+  }
+}
