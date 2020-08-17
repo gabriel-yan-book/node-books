@@ -1,0 +1,38 @@
+.gitbook-link{
+  display: none!important;
+}
+body{
+  background: red!important;
+}
+.markdown-section pre{
+  background: #fdf6e3!important;
+}
+.markdown-section ol ol{
+  list-style-type: upper-alpha!important;
+}
+.hljs-keyword{
+  color: #E91E63!important;
+}
+/* .lang-js{
+  color: #00BCD4!important;
+} */
+.hljs-title{
+  color: #009688!important;
+}
+.hljs-comment{
+  color: #008000!important;
+}
+.book-summary ul.summary li.active>a{
+  font-weight: bold!important;
+  font-size: 16px!important;
+}
+.custom-link{
+  color: red!important;
+  font-size: 18px!important;
+  font-weight: bold!important;
+}
+
+
+a{
+  text-decoration: double;
+}

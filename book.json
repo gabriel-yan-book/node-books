@@ -1,4 +1,7 @@
 {
+  "styles": {
+    "website": "css/website.css"
+},
   "plugins": [
     "back-to-top-button",
     "chapter-fold",
@@ -22,7 +25,7 @@
     },
     "insert-logo": {
       "url": "https://ftp.bmp.ovh/imgs/2019/11/8dea885bcee7fb02.png",
-      "style": "background: none; max-height: 150px; min-height: 150px"
+      "style": "background: none; max-height: 80px; min-height: 80px"
     },
     "favicon": "./icon/favicon.ico",
     "tbfed-pagefooter": {
@@ -31,27 +34,10 @@
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
     "sharing": {
-      "douban": true,
-      "facebook": true,
-      "google": true,
-      "pocket": true,
-      "qq": true,
-      "qzone": true,
-      "twitter": true,
       "weibo": true,
       "all": [
-        "douban",
-        "facebook",
-        "google",
-        "instapaper",
         "linkedin",
-        "twitter",
-        "weibo",
-        "messenger",
-        "qq",
-        "qzone",
-        "viber",
-        "whatsapp"
+        "weibo"
       ]
     }
   }
